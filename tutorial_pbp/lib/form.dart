@@ -243,6 +243,7 @@ class _MyFormPageState extends State<MyFormPage> {
                                   children: <Widget>[
                                     Center(child: const Text('Informasi Data')),
                                     SizedBox(height: 20),
+                                    Center(child: Text('Judul: ' + _namaLengkap)),
                                     // TODO: Munculkan informasi yang didapat dari form
                                     TextButton(
                                       onPressed: () {
@@ -256,9 +257,8 @@ class _MyFormPageState extends State<MyFormPage> {
                             );
                           },
                         );
-                      }
-                      ;
-                    })
+                      };
+                  })
               ],
             ),
           ),
